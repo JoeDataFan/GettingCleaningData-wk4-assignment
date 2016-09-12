@@ -115,4 +115,5 @@ View(tt_comb_sum)
 
 # 6. save the "tt_comb_sum" table to be submitted 
 setwd("../")
-write.csv(tt_comb_sum, file = "summary_activity_data.csv")
+setwd("../")
+write.table(tt_comb_sum, file = "summary_activity_data.txt", row.names = FALSE)
